@@ -1,0 +1,18 @@
+# =============================================================================
+# requirements.txt — Hand Gesture Control System
+# Install with:  pip install -r requirements.txt
+# =============================================================================
+
+# Core computer vision
+opencv-python>=4.8.0,<5.0         # cv2: camera I/O, image processing, drawing
+mediapipe>=0.10.0,<1.0             # Hand landmark model (21 3-D keypoints)
+
+# System automation
+pyautogui>=0.9.54                  # Mouse/keyboard control cross-platform
+
+# Numerics (usually already present; listed for explicitness)
+numpy>=1.24.0,<2.0
+
+# ── Optional but recommended ──────────────────────────────────────────────────
+# pynput>=1.7.6                    # Richer keyboard events (uncomment if needed)
+# pywin32>=306; sys_platform=='win32'  # Windows-specific volume control
